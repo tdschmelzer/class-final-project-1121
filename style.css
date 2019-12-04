@@ -1,0 +1,56 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+/* Global styles
+----------------------------------*/
+
+header {
+    color: red;
+    background-color: lightblue;
+    display: block;
+}
+
+body {
+    color: #343434;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    display:inline-block;
+    border: 2px solid white;
+    transform: skew(-20deg);
+    background-color:#A1C6D7;
+    padding: 10px 20px;
+    color: white;
+    
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+h1 {
+    display: inline-block;
+}
+
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: darkblue;
+}
