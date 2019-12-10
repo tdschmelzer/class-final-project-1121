@@ -6,6 +6,10 @@ https://coolors.co/f7fff7-343434-2f3061-a1c6d7
 #2F3061 - blue dark
 #FFE66D - yellow
 #A1C6D7 - blue light
+----------
+569EAA - dark green blue - background
+466881 - Dark grey blue
+8195A7 - Light grey blue
 */
 
 /* Global styles
@@ -13,7 +17,7 @@ https://coolors.co/f7fff7-343434-2f3061-a1c6d7
 
 header {
     color: red;
-    background-color: lightblue;
+    background-color: #569EAA;
     display: block;
 }
 
@@ -24,8 +28,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.simtraining {
+    background-color: #8195A7;
+}
+
 .sim1 {
     height: 600px;
+    background-color: #8195A7;
 }
 
 .nav {
@@ -71,5 +80,5 @@ h1, h2 {
 }
 
 footer {
-    background-color: darkblue;
+    background-color: #466881;
 }
