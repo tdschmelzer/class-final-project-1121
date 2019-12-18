@@ -14,9 +14,12 @@ https://coolors.co/f7fff7-343434-2f3061-a1c6d7
 
 /* Global styles
 ----------------------------------*/
-
+/* *, html, body {
+    margin: 0;
+    padding: 0;
+} */
 header {
-    color: red;
+    color: ffffff;
     background-color: #569EAA;
     display: block;
 }
@@ -26,33 +29,6 @@ body {
     margin: 10px;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.simtraining {
-    background-color: #8195A7;
-}
-
-.sim1 {
-    height: 600px;
-    background-color: #8195A7;
-}
-
-.nav {
-    display:inline-block;
-    border: 2px solid white;
-    transform: skew(-20deg);
-    background-color:#A1C6D7;
-    padding: 10px 20px;
-    color: white;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.simlist {
-    margin-left: 350px;
 }
 
 h1 {
@@ -70,15 +46,156 @@ h1, h2 {
 
 
 
+/* Navigation
+----------------*/
+
+.nav {
+    display:inline-block;
+    border: 2px solid white;
+    transform: skew(-20deg);
+    background-color:#A1C6D7;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+}
+
+.nav-h1 {
+    position: absolute;
+    left: 30px;
+    padding-left: 20x;
+    font-style: italic;
+}
+
+.nav:hover {
+    display:inline-block;
+    border: 2px solid white;
+    transform: skew(-20deg);
+    background-color:#ffffff;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* Home Page
+-------------------------*/
+
 .simulator {
     float: left;
     width: 300px;
     height: 200px;
     padding: 10px;
     margin: 10px;
+}
+
+.simtraining {
+    background-color: #8195A7;
+}
+
+.sim1 {
+    height: 300px;
+    background-color: #8195A7;
+}
+
+.simlist {
+    margin-left: 350px;
+}
+
+/* Program Page
+-------------------------*/
+.prog1 {
+    height: 300px;
+    background-color: #8195A7;
+}
+
+.proglist {
+    margin-left: 350px;
+}
+
+
+/* Contact Page
+-------------------------*/
+.con1 {
+    height: 425px;
+    background-color: #8195A7;
+}
+
+.conlist {
+    margin-left: 475px;
+}
+
+.conlist2 {
 
 }
 
+.conlist3 {
+    list-style-type:  none;
+}
+
+.conh2 {
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+#tomimg, #steveimg {
+    float: left;
+    width: 440px;
+    height: auto;
+    /* padding: 20px; */
+    margin: 40px;
+    box-sizing: border-box;
+}
+#tomimg:hover, #steveimg:hover {
+    border: 4px solid #fff;
+}
+
+
+
+/* Contact Form
+-----------------------------*/
+.confrmdiv1 {
+    height: 300px;
+    background-color: #8195A7;
+}
+
+.frmtitle {
+    float: left;
+    width: 100px;
+}
+
+input {
+    padding: 5px 5px 5px 5px; 
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#sbmt1 {
+    width: 50px;
+}
+
+#sbmt1:hover {
+    background-color: green;
+}
+
+/* Footer Page
+----------------------------*/
 footer {
     background-color: #466881;
+    color: white;
+    text-align: center;
+    
+}
+
+.footerAddress {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.addlist {
+    list-style-type: none;
 }
